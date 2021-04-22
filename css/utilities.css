@@ -1,0 +1,57 @@
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* Button */
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    background: #262626;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.dark {
+    color: #fff;
+}
+
+.dark .btn {
+    color: #333;
+    background: #f4f4f4;
+}
